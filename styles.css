@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url(./assets/imagenPortada.png);
+    height: 200px;
+}
+
+#linksNav {
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 20px;
+    font-size: 25px;
+
+}
+
+.linkStyle {
+    text-decoration: none;
+    color: white;
+}
+
+#textoPortada1 {
+    color: aliceblue;
+    display: flex;
+    padding-top: 35px;
+    justify-content: center;
+    font-size: 50px;
+}
+
+#textoPortada2 {
+    color:goldenrod;
+    display: flex;
+    justify-content: center;
+}
+
+#piePagina {
+    background-image: url(./assets/imagenPortada.png);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 10%px;
+    padding-right: 10%px;
+}
+
+.parrafoContacto1 {
+    padding: 10% 5% 5% 5%;
+    font-size: 40px;
+}
+
+.parrafoContacto2 {
+    padding: 1% 5% 1% 5%;
+    font-size: 25px;
+}
+
+.parrafoContacto3 {
+    padding: 1% 5% 10% 5%;
+    font-size: 25px;
+}
+
+#formulario {
+    padding-top: 20%;
+}
+
+
+
+button {
+    font-size: 25px;
+    margin-left: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section {
+    margin: 2% 20% 5% 20%;
+    display: flex;
+
+}
+
+#tituloMinombre {
+    margin-top: 5%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+}
+
+#tituloMinombre2 {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 2%;
+}
+
+#imgIgnacio {
+    height: 350px;
+    border-radius: 50%;
+}
+
+#imgInfancia {
+    height: 400px;
+    border-radius: 5%;
+}
+
+#imgMecanica {
+    height: 400px;
+    border-radius: 5%;
+}
+
+#imgMilitar {
+    height: 410px;
+    border-radius: 5%;
+}
+
+#imgBoda {
+    height: 410px;
+    border-radius: 5%;
+}
+
+#mainHobbies1 {
+    margin: 4% 10% 2% 15%;
+    font-size: 50px;
+}
+
+#mainHobbies2 {
+    margin: 4% 10% 2% 15%;
+    font-size: 30px;
+}
+
+
+#navHobbies {
+    border: solid;
+    margin: 5% 10% 5% 10%;
+    height: 100px;
+    padding: 5% 1% 2% 25%;
+    border-radius: 10px;
+    background-color: rgb(90, 90, 90);
+
+}
+
+#navHobbies1 {
+    border: solid;
+    margin: 5% 10% 2% 10%;
+    height: 100px;
+    padding: 5% 1% 2% 25%;
+    border-radius: 10px;
+    background-color: rgb(90, 90, 90);
+}
+
+#navHobbies2 {
+    border: solid;
+    margin: 5% 10% 5% 10%;
+    height: 100px;
+    padding: 5% 1% 2% 30%;
+    border-radius: 10px;
+    background-color: rgb(90, 90, 90);
+}
+
+.contenidoHobbies {
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.formatoParrafos {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+    width: 500px;
+    height: 400px;
+    border: solid 3px;
+    border-radius: 10px;
+    padding: 10% 10% 10% 10%;
+    font-size: 20px;
+    background-color: rgb(185, 185, 185);
+    color: rgb(0, 0, 0);
+}
+
+#spanContacteme {
+    padding-top: 10%;
+}
+
+#Contactos {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+
+}
+
+#itemsFormulario1 {
+    border: solid 2px black;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    margin: 0% 0 1% 0%;
+    padding: 1% 5% 1% 5%;
+    background-color: goldenrod;
+}
+
+#itemsFormulario2 {
+    border: solid 2px black;
+    border-radius: 10px;
+    height: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    margin: 5% 0 0% 0%;
+    padding: 1% 5% 1% 5%;
+    background-color: goldenrod;
+}
+
+#itemsFormulario3 {
+    border: solid 2px black;
+    border-radius: 10px;
+    height: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    margin: 5% 0 10% 0%;
+    padding: 1% 5% 1% 5%;
+    background-color: goldenrod;
+}
+
+.tamañoInput {
+    width: 350px;
+}
+
+#Mensaje {
+    width: 350px;
+}
+
+#boton {
+    background-color: black;
+    border-radius: 10%;
+    font-size: 50px;
+    color: white;
+}
+
+#imgRoyal {
+    width: 500px;
+}
+
+#tituloMinombre3 {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-right: 15%;
+    font-size: 20px;
+}
+
+#tituloMinombre4 {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-right: 15%;
+    font-size: 20px;
+}
+
+#imgHyosung {
+    width: 500px;
+    margin-right: 20%;
+}
+
+.imgMotosHyo {
+    width: 500px;
+}
+
+#section1 {
+    margin: 2% 30% 5% 20%;
+    display: flex;
+    font-size: 20px;
+
+    }
+
+#imgComida {
+    width: 600px;
+    margin-left: 30%;
+    margin-top: 25%;
+}
