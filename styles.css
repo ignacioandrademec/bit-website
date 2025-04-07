@@ -121,12 +121,12 @@ section {
 
 #mainHobbies1 {
     margin: 4% 10% 2% 15%;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 #mainHobbies2 {
     margin: 4% 10% 2% 15%;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
@@ -166,7 +166,7 @@ section {
 
 .formatoParrafos {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 form {
