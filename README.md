@@ -2,8 +2,6 @@
 
 ## Descripción 
 
-![imagendeignacio](imagenignacio.png)
-
 Mi nombre es **Jose Andrade**, actualmente me desempeño como *Ingeniero Mecánico*, toda mi vida me ha gustado la mecanica, crear, descubrir y poder usar la imaginación sin un limite establecido, por lo que mi siguiente paso sera ser un *desarrollador fullstack* para apoyar y ayudar a las personas con mis creaciones basado en el conocimiento de programador y desarrollador.
 
 ## Mi nombre es Jose Andrade
