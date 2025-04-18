@@ -87,7 +87,7 @@ button {
 
 section {
     margin: 2% 20% 5% 20%;
-    display: flex;
+    display: grid;
 
 }
 
