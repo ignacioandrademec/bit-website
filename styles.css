@@ -126,28 +126,9 @@ h2 {
 #navHobbies {
     border: solid;
     margin: 3% 10% 2% 10%;
-    height: 40px;
-    padding: 1% 1% 1% 26%;
     border-radius: 10px;
     background-color: rgb(90, 90, 90);
-}
-
-#navHobbies1 {
-    border: solid;
-    margin: 3% 10% 2% 10%;
-    height: 40px;
-    padding: 1% 1% 1% 25%;
-    border-radius: 10px;
-    background-color: rgb(90, 90, 90);
-}
-
-#navHobbies2 {
-    border: solid;
-    margin: 3% 10% 5% 10%;
-    height: 40px;
-    padding: 1% 1% 1% 30%;
-    border-radius: 10px;
-    background-color: rgb(90, 90, 90);
+    text-align: center;
 }
 
 .contenidoHobbies {
@@ -201,6 +182,23 @@ hr {
     margin-bottom: 3%;
 }
 
+ul {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+ol {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
 
 /*Footer*/
 
@@ -313,7 +311,31 @@ form {
         margin-bottom: 15%;
     }
 
-    
+    .imgMotosHyo {
+        margin-left: 5%;
+    }
+
+    table {
+        width: 90%;
+        margin: 5% 5% 5% 5%;
+    }
+
+    #imgComida {
+        width: 80%;
+        margin-left: 0%;
+    }
+
+    iframe {
+        width: 400px;
+    }
+
+    video {
+        width: 80%;
+    }
+
+    p {
+        margin-top: 5%;
+    }
 
     
 
