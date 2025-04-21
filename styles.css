@@ -180,7 +180,7 @@ section {
 
 
 
-#spanContacteme {
+#Contacteme {
     padding-top: 10%;
 }
 
@@ -240,6 +240,7 @@ section {
 
 .imgMotosHyo {
     width: 500px;
+    display: flex;
 }
 
 #section1 {
@@ -285,6 +286,16 @@ table {
 section {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+#collageMotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.imgMotosHyo {
+    display: flex;
+
 }
 
 
