@@ -10,9 +10,25 @@
     --imagenfondo: url(./assets/imagenPortada.png)
 }
 
+/*header*/
+
 header {
     background-image: var(--imagenfondo);
-    height: 200px;
+    height: 100%;
+}
+
+#textoPortada1 {
+    color: aliceblue;
+    display: flex;
+    padding-top: 35px;
+    justify-content: center;
+    font-size: 50px;
+}
+
+#textoPortada2 {
+    color:var(--primary-color);
+    display: flex;
+    justify-content: center;
 }
 
 #linksNav {
@@ -35,61 +51,8 @@ h2 {
     color: white;
 }
 
-#textoPortada1 {
-    color: aliceblue;
-    display: flex;
-    padding-top: 35px;
-    justify-content: center;
-    font-size: 50px;
-}
+/*Main*/
 
-#textoPortada2 {
-    color:var(--primary-color);
-    display: flex;
-    justify-content: center;
-}
-
-#piePagina {
-    background-image: url(./assets/imagenPortada.png);
-    height: 100px;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 50px;
-    font-size: 30px;
-    padding-left: 10%px;
-    padding-right: 10%px;
-}
-
-.parrafoContacto1 {
-    padding: 10% 5% 5% 5%;
-    font-size: 30px;
-}
-
-.parrafoContacto2 {
-    padding: 1% 5% 1% 5%;
-    font-size: 20px;
-}
-
-.parrafoContacto3 {
-    padding: 1% 5% 10% 5%;
-    font-size: 20px;
-}
-
-
-
-
-button {
-    font-size: 10px;
-    margin-left: 50%;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-section {
-    margin: 2% 20% 5% 20%;
-    display: grid;
-
-}
 
 #tituloMinombre {
     margin-top: 5%;
@@ -139,81 +102,6 @@ section {
     font-size: 20px;
 }
 
-
-#navHobbies {
-    border: solid;
-    margin: 3% 10% 2% 10%;
-    height: 40px;
-    padding: 1% 1% 1% 26%;
-    border-radius: 10px;
-    background-color: rgb(90, 90, 90);
-}
-
-#navHobbies1 {
-    border: solid;
-    margin: 3% 10% 2% 10%;
-    height: 40px;
-    padding: 1% 1% 1% 25%;
-    border-radius: 10px;
-    background-color: rgb(90, 90, 90);
-}
-
-#navHobbies2 {
-    border: solid;
-    margin: 3% 10% 5% 10%;
-    height: 40px;
-    padding: 1% 1% 1% 30%;
-    border-radius: 10px;
-    background-color: rgb(90, 90, 90);
-}
-
-.contenidoHobbies {
-    color: goldenrod;
-    text-decoration: none;
-    font-size: 25px;
-}
-
-.formatoParrafos {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
-}
-
-
-
-#Contacteme {
-    padding-top: 10%;
-}
-
-#Contactos {
-    display: flex;
-    justify-content: space-around;
-    margin-left: 5%;
-    margin-right: 10%;
-    margin-bottom: 5%;
-
-}
-
-.tamañoInput {
-    width: 280px;
-    height: 30px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-#Mensaje {
-    margin-top: 5%;
-    width: 280px;
-    height: 100px;
-}
-
-#boton {
-    background-color: black;
-    margin-top: 15%;
-    border-radius: 10%;
-    font-size: 20px;
-    color: white;
-}
-
 #imgRoyal {
     width: 500px;
 }
@@ -260,6 +148,124 @@ section {
     font-size: 40px;
 }
 
+
+#navHobbies {
+    border: solid;
+    margin: 3% 10% 2% 10%;
+    height: 40px;
+    padding: 1% 1% 1% 26%;
+    border-radius: 10px;
+    background-color: rgb(90, 90, 90);
+}
+
+#navHobbies1 {
+    border: solid;
+    margin: 3% 10% 2% 10%;
+    height: 40px;
+    padding: 1% 1% 1% 25%;
+    border-radius: 10px;
+    background-color: rgb(90, 90, 90);
+}
+
+#navHobbies2 {
+    border: solid;
+    margin: 3% 10% 5% 10%;
+    height: 40px;
+    padding: 1% 1% 1% 30%;
+    border-radius: 10px;
+    background-color: rgb(90, 90, 90);
+}
+
+.contenidoHobbies {
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.formatoParrafos {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+
+/*Footer*/
+
+
+
+#piePagina {
+    background-image: url(./assets/imagenPortada.png);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 10%px;
+    padding-right: 10%px;
+}
+
+.parrafoContacto1 {
+    padding: 10% 5% 5% 5%;
+    font-size: 30px;
+}
+
+.parrafoContacto2 {
+    padding: 1% 5% 1% 5%;
+    font-size: 20px;
+}
+
+.parrafoContacto3 {
+    padding: 1% 5% 10% 5%;
+    font-size: 20px;
+}
+
+
+
+
+button {
+    font-size: 10px;
+    margin-left: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
+
+#Contacteme {
+    padding-top: 10%;
+}
+
+#Contactos {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+
+}
+
+.tamañoInput {
+    width: 280px;
+    height: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#Mensaje {
+    margin-top: 5%;
+    width: 280px;
+    height: 100px;
+}
+
+#boton {
+    background-color: black;
+    margin-top: 15%;
+    border-radius: 10%;
+    font-size: 20px;
+    color: white;
+}
+
+
 #formulario {
     padding-top: 20%;
 }
@@ -298,4 +304,18 @@ section {
 
 }
 
+/*Media Queries*/
 
+@media screen and (min-width: 576px) {
+
+}
+
+@media screen and (min-width: 768px) {
+    
+    
+}
+
+@media screen and (min-width: 992px) {
+    
+    
+}
